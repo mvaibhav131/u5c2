@@ -19,7 +19,7 @@ export const Rentals = () => {
       return a.id-b.id;
     })
     setData([...newData]);
-  }   
+  }
   let lrentsort=()=>{
     let newData=data.sort(function(a,b){
       return a.rent-b.rent;
