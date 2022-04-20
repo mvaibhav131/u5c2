@@ -48,9 +48,9 @@ export const AddHouse = () => {
         <label>married</label>
         <input name="tenants" type="checkbox" className="married" onChange={handleChange}/>
         <br />
-        {/* <label>imgUrl</label>
-        <input value={imgUrl} type="text" className="image" required onChange={handleChange}/>
-        <br /> */}
+        <label>image</label>
+        <input name="imgUrl" type="text" className="image" required onChange={handleChange}/>
+        <br />
         <input className="submitBtn" type="submit" onChange={handleSubmit} />
       </form>
     </div>

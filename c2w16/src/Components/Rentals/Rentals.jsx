@@ -92,11 +92,11 @@ export const Rentals = () => {
                 <td className="areaCode">{house.areaCode}</td>
                 <td className="rent">{house.rent}</td>
                 <td className="preferredTenants">
-                  {/* Show text Both or Bachelors or Married based on values */}
+                  bachelor
                   {house.tenants}
                 </td>
                 <td className="houseImage">
-                  <img src={house.image} alt="house" />
+                  <img src={house.imgUrl} alt="house" />
                 </td>
               </tr>
             );
