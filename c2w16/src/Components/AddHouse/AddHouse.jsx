@@ -21,8 +21,7 @@ export const AddHouse = () => {
     });
   }
   
-    
-  return (
+    return (
     <div className="addHouseContainer">
       <form onSubmit={handleSubmit} >
         <label>name</label>

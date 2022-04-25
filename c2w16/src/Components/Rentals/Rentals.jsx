@@ -1,6 +1,6 @@
+
 import{useEffect,useState} from "react"
 import "./Rentals.css";
-
 
 
 export const Rentals = () => {
